@@ -1,0 +1,4 @@
+labels:
+  forward_horizon_days: 21
+  target_type: outperform_median
+  neutral_value: 0

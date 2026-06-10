@@ -1,0 +1,20 @@
+universe:
+  tickers:
+    - AAPL
+    - MSFT
+    - NVDA
+    - AMZN
+    - META
+    - GOOGL
+    - JPM
+    - XOM
+    - UNH
+    - PG
+  benchmark: SPY
+
+data:
+  start_date: "2015-01-01"
+  end_date: null
+  adjusted: true
+  raw_prices_path: data/raw/prices.csv
+  processed_prices_path: data/processed/prices.parquet

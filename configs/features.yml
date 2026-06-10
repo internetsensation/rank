@@ -1,0 +1,8 @@
+features:
+  momentum_lookback_days: 252
+  momentum_skip_days: 21
+  short_return_days: 21
+  volatility_windows: [20, 60]
+  high_window_days: 252
+  volume_windows: [20, 60]
+  drawdown_window_days: 252

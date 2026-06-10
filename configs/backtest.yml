@@ -1,0 +1,8 @@
+backtest:
+  rebalance_frequency: monthly
+  top_fraction: 0.10
+  long_short: false
+  transaction_cost_bps: 10
+  initial_capital: 100000
+  benchmark: SPY
+  min_names: 3

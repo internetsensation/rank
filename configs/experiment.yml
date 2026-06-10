@@ -1,0 +1,24 @@
+experiment:
+  name: probabilistic_logistic_baseline
+  random_seed: 42
+
+paths:
+  raw_prices: data/raw/prices.csv
+  processed_prices: data/processed/prices.parquet
+  dataset: data/processed/model_dataset.parquet
+  predictions: experiments/probabilistic_logistic/predictions.parquet
+  backtest: experiments/probabilistic_logistic/backtest.csv
+  metrics: reports/tables/probabilistic_logistic_metrics.csv
+
+include:
+  data: configs/data.yml
+  features: configs/features.yml
+  labels: configs/labels.yml
+  model: configs/model_logistic.yml
+  backtest: configs/backtest.yml
+
+splits:
+  train_start: "2015-01-01"
+  train_end: "2020-12-31"
+  test_start: "2021-01-01"
+  test_end: null
